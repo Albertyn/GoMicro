@@ -4,7 +4,7 @@ using GoMicro.Forex.Models;
 namespace GoMicro.Forex.WebApi.Controllers
 {
     //[RoutePrefix("Home/v1")]
-    class PingController : ApiController
+    public class PingController : ApiController
     {
         private readonly IApiSettings _ApiSettings;
 
