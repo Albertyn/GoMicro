@@ -20,10 +20,7 @@ namespace GoMicro.Forex.WebApi
         public void Start()
         {
             _server = WebApp.Start<Startup>(_ApiStettings.Url);
-            Console.WriteLine("...>>>...");
-            Console.WriteLine($"Api listening on >> {_ApiStettings.Url}");
-            Console.WriteLine($"Api Diagnostics >> {_ApiStettings.Url}/Ping");
-            Console.WriteLine("...>>>...");
+            Console.WriteLine($"Api listening on <{_ApiStettings.Url}> Diagnostics: <{_ApiStettings.Url}/Ping>");
         }
         public void Stop() { _server.Dispose(); }
 
@@ -33,7 +30,7 @@ namespace GoMicro.Forex.WebApi
                 var config = new HttpConfiguration();
                 var resolver = new AutofacWebApiDependencyResolver(IoC.Container);
                 config.DependencyResolver = resolver;
-                config.Routes.MapHttpRoute("Default", "api/{controller}/{id}", new { id = RouteParameter.Optional });
+                config.Routes.MapHttpRoute("Default", "api/{controller}", new { id = RouteParameter.Optional });
                 config.MapHttpAttributeRoutes();
                 config.Formatters.Remove(config.Formatters.XmlFormatter);
 
