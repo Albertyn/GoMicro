@@ -53,8 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FixerComponent.cs" />
-    <Compile Include="IFixerComponent.cs" />
+    <Compile Include="FixerDbComponent.cs" />
+    <Compile Include="IFixerDbComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\FixerRepository.cs" />
     <Compile Include="Repositories\IFixerRepository.cs" />

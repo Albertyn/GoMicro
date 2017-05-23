@@ -7,10 +7,10 @@ using MongoDB.Driver;
 
 namespace GoMicro.Forex.Components
 {
-    public class FixerComponent : IFixerComponent
+    public class FixerDbComponent : IFixerDbComponent
     {
         IFixerRepository _FixerRepository;
-        public FixerComponent(IFixerRepository FixerRepository)
+        public FixerDbComponent(IFixerRepository FixerRepository)
         {
             _FixerRepository = FixerRepository;
         }

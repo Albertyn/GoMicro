@@ -11,19 +11,16 @@ namespace GoMicro.Forex.WebApi
     {
         private IDisposable _server;
         private IApiSettings _ApiStettings { get; }
-
         public ApiShell(IApiSettings settings)
         {
             _ApiStettings = settings;
         }
-
         public void Start()
         {
             _server = WebApp.Start<Startup>(_ApiStettings.Url);
             Console.WriteLine($"Api listening on <{_ApiStettings.Url}> Diagnostics: <{_ApiStettings.Url}/Ping>");
         }
         public void Stop() { _server.Dispose(); }
-
         internal class Startup {
             public void Configuration(IAppBuilder appBuilder)
             {

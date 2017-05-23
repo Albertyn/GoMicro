@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace GoMicro.Forex.Components
 {
-    public interface IFixerComponent
+    public interface IFixerDbComponent
     {
         Task<Fixer> Get(string @base);
 
