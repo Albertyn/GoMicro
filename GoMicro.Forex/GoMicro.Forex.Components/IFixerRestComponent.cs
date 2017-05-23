@@ -2,7 +2,7 @@
 
 namespace GoMicro.Forex.Components
 {
-    interface IFixerRestComponent
+    public interface IFixerRestComponent
     {
         HttpResponseMessage GetFixerQuote(string IsoAlpha3Code);
     }

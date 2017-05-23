@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoMicro.Forex.Core", "GoMic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoMicro.Forex.Components", "GoMicro.Forex.Components\GoMicro.Forex.Components.csproj", "{5FFBBB8E-7104-4A5E-B449-9CBA53F577FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoMicro.Forex.Services", "GoMicro.Forex.Services\GoMicro.Forex.Services.csproj", "{1B12BFF8-96F5-4D12-A71D-017584DA1A75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5FFBBB8E-7104-4A5E-B449-9CBA53F577FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FFBBB8E-7104-4A5E-B449-9CBA53F577FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FFBBB8E-7104-4A5E-B449-9CBA53F577FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B12BFF8-96F5-4D12-A71D-017584DA1A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B12BFF8-96F5-4D12-A71D-017584DA1A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B12BFF8-96F5-4D12-A71D-017584DA1A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B12BFF8-96F5-4D12-A71D-017584DA1A75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

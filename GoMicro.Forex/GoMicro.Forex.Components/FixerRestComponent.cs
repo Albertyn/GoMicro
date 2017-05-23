@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using Newtonsoft.Json;
 using GoMicro.Forex.Core;
 using GoMicro.Forex.Models;
-using Newtonsoft.Json;
 
 namespace GoMicro.Forex.Components
 {

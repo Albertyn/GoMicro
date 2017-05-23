@@ -32,7 +32,7 @@ namespace GoMicro.Forex.WebApi
                 config.Formatters.Remove(config.Formatters.XmlFormatter);
 
 
-                appBuilder.UseAutofacMiddleware(IoC.Container);
+                //appBuilder.UseAutofacMiddleware(IoC.Container);
                 appBuilder.UseAutofacWebApi(config);
                 appBuilder.UseWebApi(config);
 
