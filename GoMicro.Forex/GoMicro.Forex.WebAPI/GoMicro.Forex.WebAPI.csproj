@@ -91,7 +91,7 @@
     <Compile Include="ApiSettings.cs" />
     <Compile Include="ApiShell.cs" />
     <Compile Include="Controllers\ConvertController.cs" />
-    <Compile Include="Controllers\PingController.cs" />
+    <Compile Include="Controllers\SettingsController.cs" />
     <Compile Include="IApiSettings.cs" />
     <Compile Include="IApiShell.cs" />
     <Compile Include="IoCModule.cs" />

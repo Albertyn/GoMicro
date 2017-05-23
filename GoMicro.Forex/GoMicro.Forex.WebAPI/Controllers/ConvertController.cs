@@ -6,7 +6,7 @@ using System;
 
 namespace GoMicro.Forex.WebApi.Controllers
 {
-    [RoutePrefix("api/v1/Convert")]
+    [RoutePrefix("api/Convert")]
     public class ConvertController : ApiController
     {
         private readonly IRateService rateService;
