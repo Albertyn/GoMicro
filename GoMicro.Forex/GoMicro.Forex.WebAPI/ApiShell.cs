@@ -27,7 +27,7 @@ namespace GoMicro.Forex.WebApi
                 var config = new HttpConfiguration();
                 var resolver = new AutofacWebApiDependencyResolver(IoC.Container);
                 config.DependencyResolver = resolver;
-                config.Routes.MapHttpRoute("Default", "api/{controller}", new { id = RouteParameter.Optional });
+                config.Routes.MapHttpRoute("Default", "api/{controller}");
                 config.MapHttpAttributeRoutes();
                 config.Formatters.Remove(config.Formatters.XmlFormatter);
 

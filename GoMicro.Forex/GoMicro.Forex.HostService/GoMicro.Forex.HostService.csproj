@@ -82,6 +82,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GoMicro.Forex.Components\GoMicro.Forex.Components.csproj">
+      <Project>{5ffbbb8e-7104-4a5e-b449-9cba53f577fd}</Project>
+      <Name>GoMicro.Forex.Components</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GoMicro.Forex.Core\GoMicro.Forex.Core.csproj">
       <Project>{247b9539-6208-43f9-92f5-b7e9188e4779}</Project>
       <Name>GoMicro.Forex.Core</Name>

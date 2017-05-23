@@ -90,6 +90,7 @@
   <ItemGroup>
     <Compile Include="ApiSettings.cs" />
     <Compile Include="ApiShell.cs" />
+    <Compile Include="Controllers\ConvertController.cs" />
     <Compile Include="Controllers\PingController.cs" />
     <Compile Include="IApiSettings.cs" />
     <Compile Include="IApiShell.cs" />
@@ -104,6 +105,10 @@
     <ProjectReference Include="..\GoMicro.Forex.Core\GoMicro.Forex.Core.csproj">
       <Project>{247b9539-6208-43f9-92f5-b7e9188e4779}</Project>
       <Name>GoMicro.Forex.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoMicro.Forex.Services\GoMicro.Forex.Services.csproj">
+      <Project>{1b12bff8-96f5-4d12-a71d-017584da1a75}</Project>
+      <Name>GoMicro.Forex.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

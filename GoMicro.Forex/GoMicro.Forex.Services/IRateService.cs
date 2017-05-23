@@ -1,5 +1,6 @@
 ﻿using GoMicro.Forex.Models;
 using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace GoMicro.Forex.Services
 {
@@ -10,6 +11,7 @@ namespace GoMicro.Forex.Services
         void Add(Fixer model);
 
         Fixer Get(string IsoAlpha3Code);
+        Task<Fixer> GetAsync(string IsoAlpha3Code);
 
         void Delete(string _id);
     }

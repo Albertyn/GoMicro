@@ -2,6 +2,7 @@
 using System.Net.Http;
 using GoMicro.Forex.Models;
 using GoMicro.Forex.Components;
+using System.Threading.Tasks;
 
 namespace GoMicro.Forex.Services
 {
@@ -19,10 +20,18 @@ namespace GoMicro.Forex.Services
         {
             return restComponent.GetFixerQuote(IsoAlpha3Code);
         }
+
+
         public Fixer Get(string IsoAlpha3Code)
         {
             return dbComponent.GetFixerLatest(IsoAlpha3Code).GetAwaiter().GetResult();
         }
+        public Task<Fixer> GetAsync(string IsoAlpha3Code)
+        {
+            return dbComponent.GetFixerLatest(IsoAlpha3Code);
+        }
+
+
         public void Add(Fixer model)
         {
             dbComponent.Add(model);
