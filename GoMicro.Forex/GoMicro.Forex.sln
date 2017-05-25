@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoMicro.Forex.Components", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoMicro.Forex.Services", "GoMicro.Forex.Services\GoMicro.Forex.Services.csproj", "{1B12BFF8-96F5-4D12-A71D-017584DA1A75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoMicro.Forex.ActorSystem", "GoMicro.Forex.ActorSystem\GoMicro.Forex.ActorSystem.csproj", "{006191DC-B491-42FE-9196-B318C16D63B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1B12BFF8-96F5-4D12-A71D-017584DA1A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B12BFF8-96F5-4D12-A71D-017584DA1A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B12BFF8-96F5-4D12-A71D-017584DA1A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006191DC-B491-42FE-9196-B318C16D63B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006191DC-B491-42FE-9196-B318C16D63B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006191DC-B491-42FE-9196-B318C16D63B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006191DC-B491-42FE-9196-B318C16D63B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
